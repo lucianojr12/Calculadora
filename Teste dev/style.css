@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+#container {
+    text-align: center;
+    padding: 2em 4em;
+    width: 20em;
+    height: 48em;
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    background-color: rgb(156, 146, 146);
+}
+
+input{
+    text-align: center;
+    height: 3em;
+    border-radius: 1em;
+    border: none;
+    margin: 1em;
+}
+
+
+
+.button {
+    height: 3em;
+    width: 3em;
+    margin: 0.2em 0.1em;
+    cursor: pointer;
+    border: none;
+}
+.button:hover{ background-color: rgb(144, 151, 149);}
+
+
+
+
+#resultado{
+    text-align: center;
+    width: 13em;
+    height: 3em;
+    border-radius: 1em;
+    border: none;
+    margin: 1em;
+}
+
+#historico{
+    width: 10;
+    height: 21em;
+    background-color: white;
+    border-radius: 1em;
+}
